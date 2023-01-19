@@ -39,6 +39,9 @@ def lax_friedrichs_step(u) -> np.ndarray:
 def plot(x, u):
     for u_i in u[::PLOT_STRIDE]:
         plt.plot(x, u_i)
+    plt.title("Lax-Friedrichs integration of the advection-diffusion equation")
+    plt.xlabel("$x$")
+    plt.ylabel("$u(x)$")
     plt.show()
 
 
