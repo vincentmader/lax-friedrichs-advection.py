@@ -14,6 +14,8 @@ DT = (T_MAX - T_MIN) / N_T
 A = 0.1
 
 PLOT_STRIDE = 10
+MPL_THEME = "./mpl-styles/dark.mplstyle"
+plt.style.use(MPL_THEME)
 
 
 def initial_state(x):
