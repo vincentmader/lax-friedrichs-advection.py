@@ -1,2 +1,4 @@
 integrate:
-	cd ./src && python3 ./main.py
+	cd ./bin && ./integrate.sh
+setup:
+	cd ./bin && ./setup.sh
