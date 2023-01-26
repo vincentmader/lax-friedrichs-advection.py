@@ -1,1 +1,7 @@
 * Lax-Friedrichs integration of the advection-diffusion equation
+
+*** Influence of parameters
+- $a>0$ $\Rightarrow$ Solution is shifted to the right.
+- $a<0$ $\Rightarrow$ Solution is shifted to the left.
+- $|a|\gg1$ $\Rightarrow$ No advection, only diffusive effect.
+- $|a|\ll1$ $\Rightarrow$ Scheme becomes unstable.
